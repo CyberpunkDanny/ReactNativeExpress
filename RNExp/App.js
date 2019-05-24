@@ -6,10 +6,12 @@ import FlatListDemo from './components/FlatListDemoComponent';
 import SectionListDemo from './components/SectionListDemoComponent';
 import ToDoApp from './components/ToDoAppComponent';
 
+import MinimalRedux from './redux/components/MinimalReduxComponent';
+
 export default class App extends React.Component {
   render() {
     return (
-      <ToDoApp />
+      <MinimalRedux />
     );
   }
 }
