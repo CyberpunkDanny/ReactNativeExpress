@@ -7,11 +7,12 @@ import SectionListDemo from './components/SectionListDemoComponent';
 import ToDoApp from './components/ToDoAppComponent';
 
 import MinimalRedux from './redux/components/MinimalReduxComponent';
+import Main from './redux/components/MainReduxComponent';
 
 export default class App extends React.Component {
   render() {
     return (
-      <MinimalRedux />
+      <Main />
     );
   }
 }
