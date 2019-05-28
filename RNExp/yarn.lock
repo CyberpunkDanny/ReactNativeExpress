@@ -3652,10 +3652,20 @@ locate-path@^3.0.0:
     p-locate "^3.0.0"
     path-exists "^3.0.0"
 
+lodash.debounce@^4.0.8:
+  version "4.0.8"
+  resolved "https://registry.yarnpkg.com/lodash.debounce/-/lodash.debounce-4.0.8.tgz#82d79bff30a67c4005ffd5e2515300ad9ca4d7af"
+  integrity sha1-gteb/zCmfEAF/9XiUVMArZyk168=
+
 lodash.filter@^4.6.0:
   version "4.6.0"
   resolved "https://registry.yarnpkg.com/lodash.filter/-/lodash.filter-4.6.0.tgz#668b1d4981603ae1cc5a6fa760143e480b4c4ace"
   integrity sha1-ZosdSYFgOuHMWm+nYBQ+SAtMSs4=
+
+lodash.isequal@^4.5.0:
+  version "4.5.0"
+  resolved "https://registry.yarnpkg.com/lodash.isequal/-/lodash.isequal-4.5.0.tgz#415c4478f2bcc30120c22ce10ed3226f7d3e18e0"
+  integrity sha1-QVxEePK8wwEgwizhDtMib30+GOA=
 
 lodash.map@^4.6.0:
   version "4.6.0"
@@ -4946,6 +4956,14 @@ react-native-view-shot@2.5.0:
     xmldoc "^0.4.0"
     yargs "^9.0.0"
 
+react-persist@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/react-persist/-/react-persist-1.0.2.tgz#32955ba2f38f65d945055470a1ee90c4894f8b05"
+  integrity sha512-IB+AthS5K+DTvHBvcBjYzmaNBpWi6zFWK7RYuhUMDtuQOQ3Umuom2VUf7pfJUJCoXyMVxLo2fxIn3YiZyUA8Qg==
+  dependencies:
+    lodash.debounce "^4.0.8"
+    lodash.isequal "^4.5.0"
+
 react-proxy@^1.1.7:
   version "1.1.8"
   resolved "https://registry.yarnpkg.com/react-proxy/-/react-proxy-1.1.8.tgz#9dbfd9d927528c3aa9f444e4558c37830ab8c26a"
@@ -5018,6 +5036,11 @@ readable-stream@^2.0.1, readable-stream@^2.0.6, readable-stream@^2.2.2, readable
     safe-buffer "~5.1.1"
     string_decoder "~1.1.1"
     util-deprecate "~1.0.1"
+
+redux-persist@^5.10.0:
+  version "5.10.0"
+  resolved "https://registry.yarnpkg.com/redux-persist/-/redux-persist-5.10.0.tgz#5d8d802c5571e55924efc1c3a9b23575283be62b"
+  integrity sha512-sSJAzNq7zka3qVHKce1hbvqf0Vf5DuTVm7dr4GtsqQVOexnrvbV47RWFiPxQ8fscnyiuWyD2O92DOxPl0tGCRg==
 
 redux@^4.0.1:
   version "4.0.1"

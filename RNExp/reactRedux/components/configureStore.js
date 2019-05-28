@@ -1,4 +1,6 @@
 import { createStore } from 'redux'
+import { persistStore, persistReducer } from 'redux-persist'
+import storage from 'redux-persist/es/storage'
 
 export const actionTypes = {
 	ADD_TASK: 'ADD_TASK',
@@ -28,7 +30,16 @@ const reducer = (state=initialState, action)=>{
 	}
 }
 
-export const store = createStore(reducer, initialState)
+const config = {
+        key: 'root',
+        storage,
+        debug: true
+}
+
+export const store = createStore(persistReducer(config, reducer), initialState)
+
+/* Enabling Persistence */
+export const persistor = persistStore(store)
 
 /* Action Creators */
 
