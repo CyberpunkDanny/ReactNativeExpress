@@ -9,10 +9,13 @@ import ToDoApp from './components/ToDoAppComponent';
 import MinimalRedux from './redux/components/MinimalReduxComponent';
 import Main from './redux/components/MainReduxComponent';
 
+import MainComponent from './reactRedux/components/MainComponent'
+
+
 export default class App extends React.Component {
   render() {
     return (
-      <Main />
+      <MainComponent />
     );
   }
 }
