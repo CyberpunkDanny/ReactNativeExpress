@@ -9,6 +9,7 @@ import AsyncStorageDemo from './components/AsyncStorageDemoComponent'
 import FetchAPIDemo from './components/FetchAPIDemoComponent'
 import AnimatedDemo from './components/AnimatedDemoComponent'
 import RNAnimatableDemo from './components/RNAnimatableDemoComponent'
+import PanResponderDemo from './components/PanResponderDemoComponent'
 
 import MinimalRedux from './redux/components/MinimalReduxComponent';
 import Main from './redux/components/MainReduxComponent';
@@ -19,7 +20,7 @@ import MainFetch from './reactRedux/components/MainFetchComponent'
 export default class App extends React.Component {
   render() {
     return (
-      <RNAnimatableDemo />
+      <PanResponderDemo />
     );
   }
 }
