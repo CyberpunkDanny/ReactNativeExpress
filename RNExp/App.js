@@ -12,12 +12,12 @@ import MinimalRedux from './redux/components/MinimalReduxComponent';
 import Main from './redux/components/MainReduxComponent';
 
 import MainComponent from './reactRedux/components/MainComponent'
-
+import MainFetch from './reactRedux/components/MainFetchComponent'
 
 export default class App extends React.Component {
   render() {
     return (
-      <FetchAPIDemo />
+      <MainFetch />
     );
   }
 }
